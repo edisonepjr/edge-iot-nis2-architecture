@@ -1,0 +1,25 @@
+# Pseudocódigo - Lógica de Resiliência
+
+função loop_operacional():
+    se conexao_disponivel():
+        enviar_dados()
+    senao:
+        armazenar_buffer()
+
+função enviar_dados():
+    dados = coletar_dados()
+    dados_criptografados = criptografar(dados)
+    transmitir(dados_criptografados)
+
+função armazenar_buffer():
+    dados = coletar_dados()
+    salvar_em_memoria_local(dados)
+
+função sincronizar_buffer():
+    enquanto buffer_nao_vazio():
+        dado = ler_buffer()
+        transmitir(dado)
+        remover_do_buffer()
+
+função conexao_disponivel():
+    retornar status_rede()
