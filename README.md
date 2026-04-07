@@ -46,6 +46,16 @@ Este repositório tem finalidade de **documentação científica e reprodutibili
 
 A implementação completa pode ser expandida em trabalhos futuros.
 
+## 🚀 Resultados Experimentais
+
+A arquitetura foi validada em um testbed real, apresentando:
+
+- 100% de recuperação de dados em cenários de falha
+- Redução significativa de latência em comparação com cloud
+- Operação resiliente sob perda de conectividade
+
+Os dados completos estão no artigo submetido à REIC.
+
 ## 🔗 Artigo
 
 Submetido à Revista Eletrônica de Iniciação Científica em Computação (REIC).
